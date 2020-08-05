@@ -3,13 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather Forecast</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+      integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX"
+      crossorigin="anonymous"
+    />
+    <!-- responsive viewport meta tag -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <link rel="stylesheet" href="src/style.css" />
+    <title>Weather Forecast</title>
   </head>
   <body>
-    <h1>
-      hello
-    </h1>
+    <div class="container">
+      <div class="box-wrap">
+        <h1>
+          Miami, Fl
+        </h1>
+        <ul>
+          <li>Tuesday 10:00 pm</li>
+          <li>Partly cloudy</li>
+        </ul>
+        <div class="row">
+          <div class="col-6">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+              alt="_blank"
+            />
+            29 C° | F°
+          </div>
+          <div class="col-6">
+            <ul>
+              <li>Precipitation: 13%</li>
+              <li>Humidity: 81%</li>
+              <li>Wind: 11 km/h</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <small>
+        <a href="https://github.com/amusailova/vanilla-weather-forcast-app"
+          >Open-sourse</a
+        >
+        code, by Alyona Musailova</small
+      >
+    </div>
   </body>
   <script src="src/script.js"></script>
 </html>
