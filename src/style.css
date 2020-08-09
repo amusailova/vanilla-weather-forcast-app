@@ -39,23 +39,26 @@ ul {
   margin: auto;
   margin-top: 20px;
 }
-.weather-description {
+.weather-temperature {
   color: rgb(34, 34, 34);
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
 }
-.weather-number {
-  font-size: 64px;
-  line-height: normal;
-}
-.image {
-  margin-top: -30px;
+.col-6 img {
   height: 64px;
   width: 64px;
 }
-.temp-letters {
-  height: 18px;
-  margin-top: 6px;
-  padding-top: -30px;
+.col-6 strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+  margin-left: 8px;
+  margin-right: -12px;
+}
+.temp-units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
 }
