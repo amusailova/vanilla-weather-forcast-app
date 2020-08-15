@@ -19,7 +19,9 @@ ul {
   line-height: 1.3;
   font-weight: 400;
 }
-
+li::first-letter {
+  text-transform: capitalize;
+}
 .city-description {
   color: rgb(135, 135, 135);
   display: block;

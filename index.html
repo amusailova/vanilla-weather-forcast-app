@@ -16,18 +16,17 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Weather Forecast</title>
   </head>
   <body>
     <div class="container">
       <div class="box-wrap">
         <div class="city-description">
-          <h1>
-            Miami, FL
-          </h1>
+          <h1 id="city"></h1>
           <ul>
-            <li>Friday 10:00 pm</li>
-            <li>Partly cloudy</li>
+            <li id="date"></li>
+            <li id="description"></li>
           </ul>
         </div>
         <div class="row">
@@ -38,9 +37,7 @@
               class="float-left"
             />
             <div class="float-left">
-              <strong>
-                29
-              </strong>
+              <strong id="temperature"> </strong>
               <span class="temp-units">
                 C° | F°
               </span>
@@ -48,9 +45,8 @@
           </div>
           <div class="col-6" class="temp-details">
             <ul>
-              <li>Precipitation: 13%</li>
-              <li>Humidity: 81%</li>
-              <li>Wind: 11 km/h</li>
+              <li>Humidity: <span id="humidity"></span>%</li>
+              <li>Wind: <span id="wind"></span> km/h</li>
             </ul>
           </div>
         </div>
