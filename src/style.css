@@ -11,7 +11,7 @@ h1 {
 ul {
   list-style: none;
   padding-left: 0px;
-  line-height: 1.2;
+  line-height: 1.5;
   color: rgb(135, 135, 135);
   display: block;
   font-size: 16px;
@@ -21,6 +21,15 @@ ul {
 }
 li::first-letter {
   text-transform: capitalize;
+}
+
+.btn {
+  text-align: center;
+  padding-left: 7px;
+}
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .city-description {
   color: rgb(135, 135, 135);
@@ -47,6 +56,7 @@ li::first-letter {
   font-weight: 400;
   line-height: normal;
 }
+
 .col-6 img {
   height: 64px;
   width: 64px;
@@ -60,12 +70,13 @@ li::first-letter {
   margin-right: -12px;
 }
 .temp-units {
+  margin-left: 10px;
   position: relative;
   font-size: 16px;
   top: -34px;
 }
 .weather-forecast {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .weather-forecast h3 {
@@ -80,9 +91,10 @@ li::first-letter {
 
 .weather-forecast img {
   display: block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
   margin: 0 auto;
-  height: 48px;
-  width: 48px;
 }
 
 .weather-forecast-temperature {
@@ -93,4 +105,8 @@ li::first-letter {
   height: auto;
   line-height: 15px;
   white-space: nowrap;
+}
+.coded {
+  text-align: center;
+  font-size: smaller;
 }
