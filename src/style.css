@@ -1,3 +1,9 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Roboto, arial, sans-serif;
 }
@@ -30,6 +36,7 @@ li::first-letter {
 .container {
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 100px;
 }
 .city-description {
   color: rgb(135, 135, 135);
